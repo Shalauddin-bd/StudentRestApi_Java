@@ -93,7 +93,7 @@ public class StudentController {
         }
     }
 
-    //Update single course
+    //Delete single student
     @DeleteMapping("/students/{studentId}")
     public ResponseEntity<HttpStatus> deleteStudent(@PathVariable String studentId)
     {
